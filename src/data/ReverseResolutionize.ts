@@ -2,7 +2,7 @@
 // Use deno because this depending Deno API.
 // Usage: deno run <path of this script>
 
-import Data from "./data/unitToIdol.json" assert { type: "json" };
+import Data from "./unitToIdol.json" assert { type: "json" };
 
 type UnitToIdols = {
   [unitName: string]: string[]

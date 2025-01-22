@@ -38,22 +38,22 @@
   background-color: #fff;
 }
 
-.filterCheckboxType.filterCheckbox-princess {
+.filterCheckboxType.filterCheckbox-cute {
   border-color: #ff2383;
 }
-.filterCheckboxType.filterCheckbox-princess.checked {
+.filterCheckboxType.filterCheckbox-cute.checked {
   background-color: #ff2383;
 }
-.filterCheckboxType.filterCheckbox-fairy {
+.filterCheckboxType.filterCheckbox-cool {
   border-color: #025efd;
 }
-.filterCheckboxType.filterCheckbox-fairy.checked {
+.filterCheckboxType.filterCheckbox-cool.checked {
   background-color: #025efd;
 }
-.filterCheckboxType.filterCheckbox-angel {
+.filterCheckboxType.filterCheckbox-passion {
   border-color: #ffbb00;
 }
-.filterCheckboxType.filterCheckbox-angel.checked {
+.filterCheckboxType.filterCheckbox-passion.checked {
   background-color: #ffbb00;
 }
 .filterCheckboxType.filterCheckbox-selecting {
@@ -110,22 +110,22 @@
     background-color: #fff;
   }
   
-  .filterCheckboxType.filterCheckbox-princess {
+  .filterCheckboxType.filterCheckbox-cute {
     border-color: #ff2383;
   }
-  .filterCheckboxType.filterCheckbox-princess.checked {
+  .filterCheckboxType.filterCheckbox-cute.checked {
     background-color: #ff2383;
   }
-  .filterCheckboxType.filterCheckbox-fairy {
+  .filterCheckboxType.filterCheckbox-cool {
     border-color: #025efd;
   }
-  .filterCheckboxType.filterCheckbox-fairy.checked {
+  .filterCheckboxType.filterCheckbox-cool.checked {
     background-color: #025efd;
   }
-  .filterCheckboxType.filterCheckbox-angel {
+  .filterCheckboxType.filterCheckbox-passion {
     border-color: #ffbb00;
   }
-  .filterCheckboxType.filterCheckbox-angel.checked {
+  .filterCheckboxType.filterCheckbox-passion.checked {
     background-color: #ffbb00;
   }
   .filterCheckboxType.filterCheckbox-selecting {

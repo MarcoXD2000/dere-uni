@@ -65,22 +65,22 @@
   justify-content: center;
   text-align: center;
 }
-.filterCheckboxTypeIcon.filterCheckbox-princess {
+.filterCheckboxTypeIcon.filterCheckbox-cute {
   border-color: #ff2383;
 }
-.filterCheckboxTypeIcon.filterCheckbox-princess.checked {
+.filterCheckboxTypeIcon.filterCheckbox-cute.checked {
   background-color: #ff2383;
 }
-.filterCheckboxTypeIcon.filterCheckbox-fairy {
+.filterCheckboxTypeIcon.filterCheckbox-cool {
   border-color: #025efd;
 }
-.filterCheckboxTypeIcon.filterCheckbox-fairy.checked {
+.filterCheckboxTypeIcon.filterCheckbox-cool.checked {
   background-color: #025efd;
 }
-.filterCheckboxTypeIcon.filterCheckbox-angel {
+.filterCheckboxTypeIcon.filterCheckbox-passion {
   border-color: #ffbb00;
 }
-.filterCheckboxTypeIcon.filterCheckbox-angel.checked {
+.filterCheckboxTypeIcon.filterCheckbox-passion.checked {
   background-color: #ffbb00;
 }
 .filterCheckboxTypeIcon.filterCheckbox-selecting {

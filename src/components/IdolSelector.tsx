@@ -13,7 +13,7 @@ type Props = {
 export type FilterType = IdolType | 'selecting'
 
 function IdolSelector(props: Props) {
-  const [filterTypes, setFilterTypes] = useState<FilterType[]>(['princess', 'fairy', "angel"])
+  const [filterTypes, setFilterTypes] = useState<FilterType[]>(['cute', 'cool', "passion"])
 
   function toggleFilter(type: FilterType) {
     if (filterTypes.includes(type)) {
@@ -40,7 +40,7 @@ function IdolSelector(props: Props) {
     <div className="idolView">
       <form>
         {
-          (['princess', 'fairy', 'angel', 'selecting'] as FilterType[]).map((type) =>
+          (['cute', 'cool', 'passion', 'selecting'] as FilterType[]).map((type) =>
             <FilterButton
               key={type}
               type={type}

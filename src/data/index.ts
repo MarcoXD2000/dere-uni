@@ -6,7 +6,7 @@ import unitNormalizeRaw from './unitNormalize.json'
 export type IdolName = keyof typeof idolDataRaw
 export type UnitName = keyof typeof unitToIdolRaw
 
-export type IdolType = "princess" | "fairy" | "angel"
+export type IdolType = "cute" | "cool" | "passion"
 
 export type IdolDatum = {
     screenName: string
