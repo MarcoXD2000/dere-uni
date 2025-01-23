@@ -1,8 +1,11 @@
-# milli-uni
+# dere-uni
 
 ## このリポジトリについて
 
-アイドルマスターミリオンライブのユニットを検索できるWebアプリです。
+アイドルマスターシンデレラガールズのユニットを検索できるWebアプリです。
+
+オリジナルプロジェクト：
+https://github.com/yukinko-tea-room/milli-uni
 
 ## コマンド
 
@@ -13,4 +16,4 @@ $ npm run build # プロダクション用ビルドを実行, docs/に出力
 
 ## デプロイ先
 
-https://yukinko-tea-room.github.io/milli-uni/
+https://marcoxd2000.github.io/dere-uni/
