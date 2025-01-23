@@ -26,7 +26,7 @@ def read_csv(filename:str):
         return string
 
 #unitToIdol
-datas = read_csv("unit2idol.csv")
+datas = read_csv(".\src\data\\unit2idol.csv")
 
 data_json = {}
 unit_normal_json = {}
@@ -37,11 +37,11 @@ for data in datas:
     data_json.update(unit)
     unit_normal_json.update(unit_normalize(data[0]))
 
-with open('unitToIdol.json', 'w', encoding='utf-8') as outfile:
+with open('.\src\data\\unitToIdol.json', 'w', encoding='utf-8') as outfile:
     json.dump(data_json, outfile, ensure_ascii=False, indent=4)
     outfile.close()
 
-with open('unitNormalize.json', 'w', encoding='utf-8') as outfile:
+with open('.\src\data\\unitNormalize.json', 'w', encoding='utf-8') as outfile:
     json.dump(unit_normal_json, outfile, ensure_ascii=False, indent=4)
     outfile.close()
 
@@ -75,13 +75,13 @@ for idol in idol_list:
 
 
 
-with open('idolToUnit.json', 'w', encoding='utf-8') as outfile:
+with open('.\src\data\idolToUnit.json', 'w', encoding='utf-8') as outfile:
     json.dump(data_json, outfile, ensure_ascii=False, indent=4)
     outfile.close()
 
 #idolData
 data_json = {}
-datas = read_csv("idolData.csv")
+datas = read_csv(".\src\data\idolData.csv")
 firstline = True
 for data in datas:
     if firstline:
@@ -90,8 +90,24 @@ for data in datas:
     idol = idol_data_construct(data[0], data[1], data[2])
     data_json.update(idol)
 
-with open('idolData.json', 'w', encoding='utf-8') as outfile:
+with open('.\src\data\idolData.json', 'w', encoding='utf-8') as outfile:
     json.dump(data_json, outfile, ensure_ascii=False, indent=4)
     outfile.close()
 
 
+#idolIcon
+icon_csv = read_csv(".\\src\\styles\\idolIcon.csv")
+
+# .idolIcon-天海春香 {
+#   background-image: url("https://millionlive-theaterdays.idolmaster-official.jp/assets/img/idol/thumb/1/thumb.jpg");
+#}
+icon_string = ""
+
+for url in icon_csv:
+    icon_string = icon_string + ".idolIcon-" + url[0] + " {\n"
+    icon_string = icon_string + '   background-image: url("' + url[1] + '");\n'
+    icon_string = icon_string + "}\n"
+
+with open(".\\src\\styles\\idolIcon.css", "w", encoding='utf-8') as f:
+    f.write(icon_string)
+    f.close()
