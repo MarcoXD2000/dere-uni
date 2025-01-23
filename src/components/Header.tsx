@@ -5,7 +5,7 @@ function Header() {
         <div className="headerView">
           <div className="headerTitleView">
             <h3 className="headerTitleBox">
-              MILLIONLIVE!-UNIT-SEARCH
+              CINDERELLAGIRLS-UNIT-SEARCH
             </h3>
           </div>
           <div className="headerMenuView">
